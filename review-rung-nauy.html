@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trạm Đọc Sách - Khám phá những tựa sách hay nhất, bài review chân thực và thể loại phong phú cho người yêu sách Việt Nam.">
+    <meta name="description" content="Đánh giá chi tiết sách Rừng Nauy (Norwegian Wood) của Haruki Murakami. Phân tích nỗi cô đơn, tình yêu tuổi trẻ và những ám ảnh về cái chết. Đọc ngay!">
+    <meta name="author" content="Trạm Đọc Sách">
+
+    <meta name="google-site-verification" content="PfnFmDs7VvRHehsx1Miao7HcBl1DS4DlQX5-6FzPNyU" />
+    
+    <title>Trạm Đọc Sách | Cộng đồng yêu sách Việt Nam</title>
+
+    <!-- Font chữ -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png?v=5" type="images/png" sizes="32x32">
+    <!-- Liên kết css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <!-- Phần đầu trang -->
+    <header>
+        <div class="hop-chua">
+            <h1 class="logo">Trạm Đọc Sách<span>.</span></h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html" >Trang chủ</a></li>
+
+                    <!-- THAY ĐỔI: Thêm class "menu-tha-xuong" và thẻ <ul> mới -->
+                    <li class="menu-tha-xuong">
+                        <a>Thể loại</a>
+                        
+                        <!-- MENU THẢ XUỐNG -->
+                        <ul class="menu-con">
+                            <li><a href="tieu-thuyet.html">Tiểu Thuyết</a></li>
+                            <li><a href="ky-nang-song.html">Kỹ Năng Sống</a></li>
+                            <li><a href="khoa-hoc.html">Khoa Học & Lịch Sử</a></li>
+                            <li><a href="kinh-dien.html">Kinh Điển</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="tac-gia.html">Tác giả</a></li>
+                    <li><a href="review-sach.html">Review Sách</a></li> 
+                    <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+                </ul>
+            </nav>
+
+            <div class="cong-cu-dau-trang">
+                <div class="khung-tim-kiem">
+                    <input type="text" placeholder="Tìm kiếm sách..." class="o-tim-kiem" aria-label="Tìm kiếm sách">
+                    <button class="nut-tim-kiem" aria-label="Tìm kiếm">
+                        <img src="https://cdn-icons-png.flaticon.com/512/622/622669.png" alt="Icon tìm kiếm">
+                    </button>
+                </div>
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Avatar người dùng" class="anh-dai-dien">
+            </div>
+        </div>
+    </header>
+
+  <main class="review-page">
+    <div class="hop-chua">
+        
+        <!-- Cấu trúc Schema Markup cho Đánh giá (Review) -->
+        <article itemscope itemtype="http://schema.org/Review">
+            <header class="review-header">
+                <!-- H1  -->
+                <h1 itemprop="name">REVIEW SÁCH: RỪNG NAUY - NORWEGIAN WOOD </h1>
+                
+                <div class="meta-info">
+                    <span class="tac-gia-review">
+                        Bởi <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                            <span itemprop="name">Nguyễn Thu Trang</span>
+                        </span>
+                    </span>
+                    <span class="ngay-dang">| <time itemprop="datePublished" datetime="2025-11-02">02/11/2025</time></span>
+                </div>
+            </header>
+            
+            <!-- BỐ CỤC CHÍNH CỦA BÀI VIẾT  -->
+            <div class="review-content-grid">
+                
+                <!-- THÔNG TIN SÁCH VÀ ĐÁNH GIÁ  -->
+                <aside class="review-info-sidebar">
+                    <section class="thong-tin-sach" itemprop="itemReviewed" itemscope itemtype="http://schema.org/Book">
+                        <div class="anh-bia-sach" >
+                            <img itemprop="image" src="images/Rung-Nauy.jpg" alt="Ảnh bìa sách rừng na uy" > 
+                        </div>
+                        <div class="diem-noi-bat">
+                            <h3 itemprop="name">Rừng Nauy (Norwegian Wood) </h3>
+                            <p><strong>Tác giả:</strong> <span itemprop="author">Haruki Murakami</span></p>
+                            <p><strong>Thể loại:</strong> <span itemprop="genre">Tiểu thuyết, Kinh điển </span></p>
+                            <p><strong>Năm xuất bản:</strong> 1987</p>
+                            
+                            <!-- Đánh giá sao (Rating) -->
+                            <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <p style="margin-bottom: 5px;"><strong>Đánh giá của Trạm Đọc Sách:</strong></p>
+                                <span class="rating-value" itemprop="ratingValue">4.9</span> / <span itemprop="bestRating">5</span>
+                            </div>
+                            <button class="nut-mua-sach">MUA SÁCH BẢN ĐẸP NGAY</button>
+                        </div>
+                    </section>
+                </aside>
+
+                <!-- NỘI DUNG REVIEW CHI TIẾT -->
+                <section class="noi-dung-bai-viet">
+                    <p>Nếu phải chọn một cuốn sách để nói về tuổi trẻ đầy cô đơn, tình dục và những ám ảnh về cái chết, đó chắc chắn là "Rừng Nauy". Haruki Murakami không kể một câu chuyện tình yêu thông thường, mà là một hành trình khắc khoải đi tìm ý nghĩa cuộc sống qua đôi mắt của Watanabe Toru.</p>
+                    <blockquote class="box-noi-dung-them">
+                    <p>“Sự cô đơn là một phần tất yếu của kiếp người, nó dạy ta hiểu rằng không có ai mãi mãi đi bên cạnh ta.” – Haruki Murakami</p>
+                    </blockquote>
+                    
+                    <h2>1. Nỗi ám ảnh của cái chết và tình yêu tuổi 20</h2>
+                    <p>“Rừng Na Uy” là một trong những tác phẩm nổi tiếng nhất của Haruki Murakami — cuốn tiểu thuyết đưa người đọc bước vào thế giới trầm lắng, đầy cô đơn và khát khao được yêu thương của tuổi trẻ.
+                    Câu chuyện xoay quanh Toru Watanabe, một chàng sinh viên lạc lõng giữa dòng đời, và Naoko, cô gái mong manh bị ám ảnh bởi quá khứ. Họ tìm thấy nhau trong nỗi đau, trong sự mất mát – nhưng cũng chính vì thế mà không thể ở lại bên nhau.
+                    Murakami viết “Rừng Na Uy” như một bản nhạc buồn, nơi từng câu chữ thấm đẫm nỗi cô đơn, những câu hỏi về tình yêu, cái chết, và ý nghĩa của việc tồn tại. Đọc xong, người ta có cảm giác như vừa đi qua một cánh rừng – đẹp, tĩnh lặng nhưng cũng đầy bí ẩn và ám ảnh.</p>
+                    <!-- H3  -->
+                    <h3>- Mối quan hệ phức tạp với Naoko</h3>
+                    <p>Naoko tượng trưng cho nỗi buồn và sự mất mát không thể vượt qua. Tình yêu của Watanabe dành cho cô là một loại trách nhiệm và sự thương hại, đẩy anh vào những cảm xúc phức tạp, đau đớn mà không thể giải thoát.</p>
+                    <h3>- Mối quan hệ giữa Toru và Midori</h3>
+                    <p>
+                    Giữa bầu không khí trầm lặng của nỗi cô đơn và mất mát, sự xuất hiện của Midori mang đến cho Toru một luồng sinh khí mới – tươi sáng, tự do và đầy sức sống. Mối quan hệ của họ không chỉ là tình cảm nam nữ,  
+                    mà còn là hành trình Toru học cách mở lòng, chấp nhận quá khứ và tiếp tục sống cho hiện tại.
+                    </p>
+                    <h2>2. Tuổi trẻ và bản nhạc buồn "Norwegian Wood"</h2>
+                    <p>Tên cuốn sách được lấy cảm hứng từ bài hát nổi tiếng của The Beatles. Bài hát này cũng như toàn bộ cuốn sách: mang giai điệu đẹp nhưng buồn man mác, gợi lên sự bối rối và cô đơn đặc trưng của tuổi 20.</p>
+                    <ul>
+                        <li>Thực tại trần trụi: Murakami không né tránh các chủ đề như tình dục, tự tử và bệnh tâm lý, khiến tác phẩm trở nên chân thật và thô ráp.</li>
+                        <li>Sự cô đơn đồng hành: Mỗi nhân vật trong sách đều mang một nỗi cô đơn riêng, từ Naoko, Reiko đến chính Watanabe. Cuốn sách giúp người đọc chấp nhận sự cô đơn như một phần của trưởng thành.</li>
+                    </ul>
+                    <div class="box-noi-dung-them">
+                        <p>“Nơi nào đó mà ta không biết, có một thứ không tồn tại mà ta muốn đến.” – Lời trích dẫn sâu sắc thể hiện sự lạc lối của nhân vật.</p>
+                    </div>
+
+                    <h2>3. Tóm kết: Cuốn sách cần thiết cho người trẻ</h2>
+                    <p>"Rừng Nauy" là một cuốn sách gây chia rẽ, nhưng nó là một tác phẩm không thể bỏ qua. Nó không đưa ra giải pháp, mà là một lời động viên thầm lặng cho những ai đang bối rối, đau khổ và đang cố gắng tìm lại chính mình. Đọc cuốn sách này để học cách nói lời tạm biệt với quá khứ và bước tiếp.</p>
+                    <ul>
+                        
+              
+                    <div style="text-align: right; margin-top: 50px; padding-top: 20px; border-top: 1px dashed #ddd;">
+                        <p style="font-style: italic; font-size: 0.9em; color: #888;">Bài viết được đăng tải lần đầu tại Trạm Đọc Sách.</p>
+                    </div>
+                </section>
+                
+                <!-- CỘT 3: Các Review Khác  -->
+                <aside class="review-sidebar">
+                    <h3 style="color: #333; border-bottom: 2px solid #ff5722; padding-bottom: 10px; margin-bottom: 20px;">KHÁM PHÁ THÊM</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 10px;"><a href="review-cay-cam-ngot-cua-toi.html" style="text-decoration: none; color: #007bff; font-weight: 600;">> Review Cây Cam Ngọt Của Tôi</a></li>
+                        <li style="margin-bottom: 10px;"><a href="review-cuoc-song-khong-gioi-han.html" style="text-decoration: none; color: #007bff; font-weight: 600;">> Review Sách Cuộc Sống Không Giới Hạn</a></li>
+                    </ul>
+                </aside>
+
+            </div>
+        </article>
+    </div>
+</main>
+
+
+
+    <!-- Footer -->
+    <footer class="main-footer minimal">
+    <div class="hop-chua footer-content">
+        
+        <!-- Cột 1: Logo, Mô tả và Bản quyền -->
+        <div class="footer-col about-us">
+            <h3 class="footer-logo">Trạm Đọc Sách <span style="color: #ff5722;">.</span></h3>
+            <p>Nền tảng review sách và cộng đồng yêu sách lớn nhất Việt Nam. Khám phá những câu chuyện hay, chia sẻ cảm nhận chân thật.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="copyright-text">
+                <p>&copy; 2025 Trạm Đọc Sách. All Rights Reserved.</p>
+            </div>
+        </div>
+
+        <!-- Cột 2: Danh mục Liên kết Chính -->
+        <div class="footer-col footer-links">
+            <h4>Danh Mục</h4>
+            <ul>
+                <li><a href="review-sach.html">Review Sách</a></li>
+                <li><a href="tac-gia.html">Danh Sách Tác Giả</a></li>
+            </ul>
+        </div>
+
+        <!-- Cột 3: Liên kết Pháp lý & Hỗ trợ -->
+        <div class="footer-col footer-links">
+            <h4>Hỗ Trợ</h4>
+            <ul>
+                <li><a href="gioi-thieu.html">Về Chúng Tôi</a></li>
+                <li><a href="gioi-thieu.html">Điều Khoản Sử Dụng</a></li>
+                <li><a href="gioi-thieu.html">Chính Sách Bảo Mật</a></li>
+                <li><a href="gioi-thieu.html">Liên Hệ</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<!-- Kết thúc Footer -->
+
+</body>
+</html>

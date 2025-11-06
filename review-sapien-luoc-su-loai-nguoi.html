@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trạm Đọc Sách - Khám phá những tựa sách hay nhất, bài review chân thực và thể loại phong phú cho người yêu sách Việt Nam.">
+    <meta name="keywords" content="sách hay, review sách, trạm đọc sách, thể loại sách, tác giả, đọc sách online">
+    <meta name="author" content="Trạm Đọc Sách">
+
+    <meta name="google-site-verification" content="PfnFmDs7VvRHehsx1Miao7HcBl1DS4DlQX5-6FzPNyU" />
+    
+    <title>Trạm Đọc Sách | Cộng đồng yêu sách Việt Nam</title>
+
+    <!-- Font chữ -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png?v=5" type="images/png" sizes="32x32">
+    <!-- Liên kết css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <!-- Phần đầu trang -->
+    <header>
+        <div class="hop-chua">
+            <h1 class="logo">Trạm Đọc Sách<span>.</span></h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html" >Trang chủ</a></li>
+
+                    <!-- THAY ĐỔI: Thêm class "menu-tha-xuong" và thẻ <ul> mới -->
+                    <li class="menu-tha-xuong">
+                        <a>Thể loại</a>
+                        
+                        <!-- MENU THẢ XUỐNG -->
+                        <ul class="menu-con">
+                            <li><a href="tieu-thuyet.html">Tiểu Thuyết</a></li>
+                            <li><a href="ky-nang-song.html">Kỹ Năng Sống</a></li>
+                            <li><a href="khoa-hoc.html">Khoa Học & Lịch Sử</a></li>
+                            <li><a href="kinh-dien.html">Kinh Điển</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="tac-gia.html">Tác giả</a></li>
+                    <li><a href="review-sach.html">Review Sách</a></li> 
+                    <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+                </ul>
+            </nav>
+
+            <div class="cong-cu-dau-trang">
+                <div class="khung-tim-kiem">
+                    <input type="text" placeholder="Tìm kiếm sách..." class="o-tim-kiem" aria-label="Tìm kiếm sách">
+                    <button class="nut-tim-kiem" aria-label="Tìm kiếm">
+                        <img src="https://cdn-icons-png.flaticon.com/512/622/622669.png" alt="Icon tìm kiếm">
+                    </button>
+                </div>
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Avatar người dùng" class="anh-dai-dien">
+            </div>
+        </div>
+    </header>
+
+  <main class="review-page">
+    <div class="hop-chua">
+        
+        <!-- Cấu trúc Schema Markup cho Đánh giá (Review) -->
+        <article itemscope itemtype="http://schema.org/Review">
+            <header class="review-header">
+                <!-- H1  -->
+                <h1 itemprop="name">REVIEW SÁCH: SAPIENS LƯỢC SỬ VỀ LOÀI NGƯỜI </h1>
+                
+                <div class="meta-info">
+                    <span class="tac-gia-review">
+                        Bởi <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                            <span itemprop="name">Nguyễn Thu Trang</span>
+                        </span>
+                    </span>
+                    <span class="ngay-dang">| <time itemprop="datePublished" datetime="2025-11-02">02/11/2025</time></span>
+                </div>
+            </header>
+            
+            <!-- BỐ CỤC CHÍNH CỦA BÀI VIẾT  -->
+            <div class="review-content-grid">
+                
+                <!-- THÔNG TIN SÁCH VÀ ĐÁNH GIÁ  -->
+                <aside class="review-info-sidebar">
+                    <section class="thong-tin-sach" itemprop="itemReviewed" itemscope itemtype="http://schema.org/Book">
+                        <div class="anh-bia-sach" >
+                            <img itemprop="image" src="images/sapiens-luoc-su-ve-loai-nguoi.webp" alt="Ảnh bìa sách Sapiens Lược Sử Về Loài Người" > 
+                        </div>
+                        <div class="diem-noi-bat">
+                            <h3 itemprop="name">Sapiens Lược Sử Về Loài Người</h3>
+                            <p><strong>Tác giả:</strong> <span itemprop="author"> Yuval Noah Harari</span></p>
+                            <p><strong>Thể loại:</strong> <span itemprop="genre">Khoa học, lịch sử </span></p>
+                            <p><strong>Năm xuất bản:</strong> 2011</p>
+                            
+                            <!-- Đánh giá sao (Rating) -->
+                            <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                                <p style="margin-bottom: 5px;"><strong>Đánh giá của Trạm Đọc Sách:</strong></p>
+                                <span class="rating-value" itemprop="ratingValue">4.8</span> / <span itemprop="bestRating">5</span>
+                            </div>
+                            <button class="nut-mua-sach">MUA SÁCH BẢN ĐẸP NGAY</button>
+                        </div>
+                    </section>
+                </aside>
+
+                <!-- NỘI DUNG REVIEW CHI TIẾT -->
+                <section class="noi-dung-bai-viet">
+                    <p>Trong một tác phẩm đầy tham vọng, Yuval Noah Harari đã làm điều mà ít nhà sử học dám làm: tóm tắt 70.000 năm lịch sử nhân loại trong một cuốn sách. "Sapiens" không phải là cuốn sách chỉ nói về các sự kiện, mà là một cuộc hành trình khám phá những ý tưởng và cấu trúc hư cấu đã cho phép con người thống trị hành tinh.</p>
+                    
+                    <div class="box-noi-dung-them">
+                        <p>“Sức mạnh thực sự của loài người không nằm ở bộ não lớn hơn, mà nằm ở khả năng tin vào những câu chuyện hư cấu tập thể.” – Yuval Noah Harari</p>
+                    </div>
+
+                    <h2>1. Ba Cuộc Cách Mạng Định Hình Số Phận Loài Người</h2> <p>Harari chia lịch sử Sapiens thành ba giai đoạn cách mạng lớn, mỗi giai đoạn thay đổi hoàn toàn cách chúng ta sống và tương tác:</p>
+                    
+                    <h3>- Cách Mạng Nhận Thức (Cognitive Revolution)</h3> <p>Khoảng 70.000 năm trước, Sapiens phát triển ngôn ngữ linh hoạt, cho phép họ kể những câu chuyện và tin vào những thứ không tồn tại (như thần linh, quốc gia, tiền tệ). Chính khả năng này đã cho phép hàng triệu người hợp tác với nhau, vượt qua các loài khác.</p>
+
+                    <h3>- Cách Mạng Nông nghiệp (Agricultural Revolution)</h3>
+                    <p>Khoảng 12.000 năm trước, con người bắt đầu trồng trọt. Harari gọi đây là "Trò lừa bịp vĩ đại nhất của lịch sử". Con người làm việc vất vả hơn, nhưng dân số tăng lên, khiến chúng ta bị mắc kẹt vào cuộc sống ổn định nhưng đầy lao động.</p>
+                    
+                    <h3>- Cách Mạng Khoa học (Scientific Revolution)</h3>
+                    <p>Bắt đầu từ 500 năm trước, sự thừa nhận "sự ngu dốt" và khao khát khám phá đã dẫn đến các phát minh thay đổi thế giới, từ đó tạo ra Chủ nghĩa Tư bản, Chủ nghĩa Đế quốc, và Cuộc cách mạng Công nghiệp.</p>
+                    
+                    <h2>2. Phân tích các Cấu trúc Hư cấu (Fiction)</h2>
+                    <p>Điểm mạnh nhất của "Sapiens" là việc phân tích cách các khái niệm trừu tượng (như tiền bạc, luật pháp, quyền con người) đã trở thành công cụ hợp tác mạnh mẽ nhất của loài người. Nếu không có niềm tin chung vào tiền tệ, hệ thống kinh tế toàn cầu sẽ sụp đổ.</p>
+                    
+                    <ul>
+                        <li>Tiền bạc: Là hệ thống niềm tin chung hiệu quả nhất từng được tạo ra.</li>
+                        <li>Chủ nghĩa Tư bản: Là một tôn giáo mới, nơi niềm tin vào tăng trưởng và lợi nhuận là giáo lý cốt lõi.</li>
+                        <li>Quyền con người: Là một khái niệm trừu tượng, không phải thực tế sinh học, nhưng nó ràng buộc xã hội.</li>
+                    </ul>
+                    
+                    <h2>3. Tóm kết: Chúng ta có hạnh phúc hơn không?</h2>
+                    
+                    <p>Harari kết thúc bằng câu hỏi lớn: Sau tất cả những cuộc cách mạng này, liệu Sapiens có hạnh phúc hơn không? Ông đặt ra những lo ngại về tương lai, khi khoa học công nghệ có thể tạo ra những loài người mới (Super-Sapiens) và định hình lại bản chất của ý thức.</p>
+                    <div style="text-align: right; margin-top: 50px; padding-top: 20px; border-top: 1px dashed #ddd;">
+                        <p style="font-style: italic; font-size: 0.9em; color: #888;">Bài viết được đăng tải lần đầu tại Trạm Đọc Sách.</p>
+                    </div>
+                </section>
+                
+                <!-- CỘT 3: Các Review Khác  -->
+                <aside class="review-sidebar">
+                    <h3 style="color: #333; border-bottom: 2px solid #ff5722; padding-bottom: 10px; margin-bottom: 20px;">KHÁM PHÁ THÊM</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 10px;"><a href="review-cay-cam-ngot-cua-toi.html" style="text-decoration: none; color: #007bff; font-weight: 600;">> Review Cây Cam Ngọt Của Tôi</a></li>
+                        <li style="margin-bottom: 10px;"><a href="review-cuoc-song-khong-gioi-han.html" style="text-decoration: none; color: #007bff; font-weight: 600;">> Review Sách Cuộc Sống Không Giới Hạn</a></li>
+                    </ul>
+                </aside>
+
+            </div>
+        </article>
+    </div>
+</main>
+
+
+
+    <!-- Footer -->
+    <footer class="main-footer minimal">
+    <div class="hop-chua footer-content">
+        
+        <!-- Cột 1: Logo, Mô tả và Bản quyền -->
+        <div class="footer-col about-us">
+            <h3 class="footer-logo">Trạm Đọc Sách <span style="color: #ff5722;">.</span></h3>
+            <p>Nền tảng review sách và cộng đồng yêu sách lớn nhất Việt Nam. Khám phá những câu chuyện hay, chia sẻ cảm nhận chân thật.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="copyright-text">
+                <p>&copy; 2025 Trạm Đọc Sách. All Rights Reserved.</p>
+            </div>
+        </div>
+
+        <!-- Cột 2: Danh mục Liên kết Chính -->
+        <div class="footer-col footer-links">
+            <h4>Danh Mục</h4>
+            <ul>
+                <li><a href="review-sach.html">Review Sách</a></li>
+                <li><a href="the-loai.html">Thể Loại </a></li>
+                <li><a href="tac-gia.html">Danh Sách Tác Giả</a></li>
+            </ul>
+        </div>
+
+        <!-- Cột 3: Liên kết Pháp lý & Hỗ trợ -->
+        <div class="footer-col footer-links">
+            <h4>Hỗ Trợ</h4>
+            <ul>
+                <li><a href="gioi-thieu.html">Về Chúng Tôi</a></li>
+                <li><a href="gioi-thieu.html">Điều Khoản Sử Dụng</a></li>
+                <li><a href="gioi-thieu.html">Chính Sách Bảo Mật</a></li>
+                <li><a href="gioi-thieu.html">Liên Hệ</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<!-- Kết thúc Footer -->
+
+</body>
+</html>
