@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
-Sitemap: https://tram-doc-sach.netlify.app/sitemap.xml
+
+Sitemap: https://tram-doc-sach.github.io/sitemap.xml
+
