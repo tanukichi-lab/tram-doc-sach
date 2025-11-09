@@ -1,3 +1,15 @@
+/* BỔ SUNG: CSS Reset đơn giản để loại bỏ margin/padding mặc định */
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+/* BỔ SUNG: Đảm bảo hình ảnh không bị thừa khoảng trắng dưới chân */
+img {
+    display: block;
+}
+
+
+
 /* ---------------------------------------------------------------- */
 /* TOÀN TRANG */
 /* ---------------------------------------------------------------- */
@@ -862,4 +874,5 @@ text-align: left;
     .author-item {
         width: 100%; /* 1 cột trên màn hình siêu nhỏ */
     }
+
 }
