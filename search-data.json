@@ -46,5 +46,20 @@
         "url": "tac-gia.html",
         "keywords": "nguyễn thu trang",
         "description": "Danh sách các tác giả và reviewer của Trạm Đọc Sách."
-    }
+    },
+
+     {
+        "title": "Review Sách: Rừng Nauy",
+        "url": "review-rung-nauy.html",
+        "keywords": "Haruki Murakami Norwegian Wood ",
+        "description": "Phân tích nỗi cô đơn, tình yêu tuổi trẻ và những ám ảnh về cái chết.."
+    },
+
+    {
+        "title": "Review Sách: Sapiens lược sử loài người",
+        "url": "review-sapien-luoc-su-loai-nguoi.html",
+        "keywords": "Yuval Noah Harari ",
+        "description": "Khám phá lịch sử tiến hóa, kỷ nguyên nhận thức và tương lai của nhân loại."
+    },
+
 ]
