@@ -16,7 +16,6 @@
     <link rel="icon" href="favicon.png?v=5" type="image/png" sizes="32x32">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Liên kết css -->
-    <!-- Liên kết css -->
     <link rel="stylesheet" href="style.css">
 
     <script type="application/ld+json">
@@ -32,66 +31,42 @@
 
 
 <body>
-   <header>
-    <!-- 
-      ĐÂY LÀ CẤU TRÚC ĐÚNG:
-      hop-chua bọc tất cả lại.
-      Logo và Nút Burger nằm ngang hàng.
-      nav-wrapper (chứa Menu và Search) nằm ngang hàng.
-    -->
-    <div class="hop-chua">
-        <a href="index.html" class="logo">Trạm Đọc Sách<span>.</span></a>
-
-        <!-- NÚT BURGER (MỚI) - CHỈ HIỆN TRÊN DI ĐỘNG -->
-        <button class="nut-burger" id="burger-menu" aria-label="Mở menu">
-            <i class="fas fa-bars"></i>
-        </button>
-
-        <!-- BỌC MENU VÀ CÔNG CỤ (MỚI) -->
-        <div class="nav-wrapper" id="nav-wrapper">
-            <!-- MENU CỦA BẠN PHẢI NẰM TRONG NÀY -->
+    <!-- Phần đầu trang -->
+    <header>
+        <div class="hop-chua">
+             <h1 class="logo">Trạm Đọc Sách<span>.</span></h1>
             <nav>
                 <ul class="menu">
-                    <li><a href="index.html" class="dang-chon">Trang chủ</a></li>
+                    <li><a href="index.html" >Trang chủ</a></li>
+                      <!-- THAY ĐỔI: Thêm class "menu-tha-xuong" và thẻ <ul> mới -->
                     <li class="menu-tha-xuong">
-                        <a href="#">Thể loại</a>
+                        <a>Thể loại</a>
+                        
+                        <!-- MENU THẢ XUỐNG -->
                         <ul class="menu-con">
-                            <li><a href="tieu-thuyet.html">Tiểu thuyết</a></li>
-                            <li><a href="khoa-hoc.html">Khoa học</a></li>
-                            <li><a href="ky-nang-song.html">Kỹ năng sống</a></li>
-                            <li><a href="kinh-dien.html">Kinh điển</a></li>
+                            <li><a href="tieu-thuyet.html">Tiểu Thuyết</a></li>
+                            <li><a href="review-cuoc-song-khong-gioi-han.html">Kỹ Năng Sống</a></li>
+                            <li><a href="khoa-hoc.html">Khoa Học & Lịch Sử</a></li>
+                            <li><a href="review-rung-nauy.html">Kinh Điển</a></li>
                         </ul>
-                    </li>
+            
                     <li><a href="tac-gia.html">Tác giả</a></li>
-                    <li><a href="review-sach.html">Review Sách</a></li>
+                    <li><a href="review-sach.html">Review Sách</a></li> 
                     <li><a href="gioi-thieu.html">Giới thiệu</a></li>
                 </ul>
             </nav>
-    
-            <!-- THANH TÌM KIẾM CỦA BẠN CŨNG NẰM TRONG NÀY -->
+
             <div class="cong-cu-dau-trang">
                 <div class="khung-tim-kiem">
-                    <input type="text" class="o-tim-kiem" placeholder="Tìm kiếm...">
-                    <button class="nut-tim-kiem">
-                        <img src="images/search-icon.png" alt="Tìm kiếm">
+                    <input type="text" placeholder="Tìm kiếm sách..." class="o-tim-kiem" aria-label="Tìm kiếm sách">
+                    <button class="nut-tim-kiem" aria-label="Tìm kiếm">
+                        <img src="https://cdn-icons-png.flaticon.com/512/622/622669.png" alt="Icon tìm kiếm">
                     </button>
                 </div>
-                <!-- <img src="images/user-avatar.png" alt="Tài khoản" class="anh-dai-dien"> -->
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Avatar người dùng" class="anh-dai-dien">
             </div>
-        </div> <!-- Hết .nav-wrapper -->
-
-    </div> <!-- Hết .hop-chua -->
-</header>
-
-<!-- (Nội dung trang của bạn) -->
-
-<!-- SCRIPT (MỚI) - ĐẶT TRƯỚC </body> -->
-<script>
-    document.getElementById('burger-menu').addEventListener('click', function() {
-        document.getElementById('nav-wrapper').classList.toggle('active');
-    });
-</script>
-
+        </div>
+    </header>
 
     <!-- Phần nổi bật -->
     <main>
