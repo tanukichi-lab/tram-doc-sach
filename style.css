@@ -886,4 +886,14 @@ text-align: left;
 
 }
 
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
 
