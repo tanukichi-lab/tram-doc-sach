@@ -1,5 +1,5 @@
 
-    const searchData = [
+    [
         {
             title: "Review Sách: Cây Cam Ngọt Của Tôi",
             url: "review-cay-cam-ngot-cua-toi.html",
@@ -68,3 +68,4 @@
         }
         
     ];
+
