@@ -44,14 +44,15 @@
             </nav>
 
             <div class="cong-cu-dau-trang">
-                <div class="khung-tim-kiem">
-                    <input type="text" placeholder="Tìm kiếm sách..." class="o-tim-kiem" aria-label="Tìm kiếm sách">
-                    <button class="nut-tim-kiem" aria-label="Tìm kiếm">
-                        <img src="https://cdn-icons-png.flaticon.com/512/622/622669.png" alt="Icon tìm kiếm">
-                    </button>
-                </div>
-                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Avatar người dùng" class="anh-dai-dien">
-            </div>
+            <div class="khung-tim-kiem">
+                <input type="text" placeholder="Tìm kiếm sách..." class="o-tim-kiem" aria-label="Tìm kiếm sách" id="search-input">
+                <button class="nut-tim-kiem" aria-label="Tìm kiếm">
+                    <img src="https://cdn-icons-png.flaticon.com/512/622/622669.png" alt="Icon tìm kiếm">
+                </button>
+                <div id="search-results"></div>
+            </div> 
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Avatar người dùng" class="anh-dai-dien">
+        </div>
         </div>
     </header>
 
@@ -214,8 +215,9 @@
     </div>
 </footer>
 <!-- Kết thúc Footer -->
-
+ <script src="search.js" defer></script> <!-- File cho tìm kiếm -->
 </body>
 </html>
+
 
 
