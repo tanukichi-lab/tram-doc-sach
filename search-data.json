@@ -1,65 +1,70 @@
-[
-    {
-        "title": "Review Sách: Cây Cam Ngọt Của Tôi",
-        "url": "review-cay-cam-ngot-cua-toi.html",
-        "keywords": "zeze portugua văn học brazil",
-        "description": "Lời thú tội của một thiên thần. Câu chuyện về tình yêu, sự cô đơn, và cả những vết thương đầu đời..."
-    },
-    {
-        "title": "Review Sách: Atomic Habits (Thói Quen Nguyên Tử)",
-        "url": "review-atomic-habits.html",
-        "keywords": "james clear 1% quy tắc xây dựng",
-        "description": "Thay đổi tí hon, hiệu quả bất ngờ. Phân tích quy tắc 1% và 4 bước xây dựng thói quen bền vững."
-    },
-    {
-        "title": "Review Sách: Đắc Nhân Tâm (Dale Carnegie)",
-        "url": "review-dac-nhan-tam.html",
-        "keywords": "giao tiếp ứng xử thảo mai",
-        "description": "Cuốn sách self-help quyền lực nhất. 7 bài học đắt giá về giao tiếp, ứng xử..."
-    },
-    {
-        "title": "Review Sách: Nhà Giả Kim (Paulo Coelho)",
-        "url": "review-nha-gia-kim.html",
-        "keywords": "santiago vận mệnh dấu hiệu vũ trụ",
-        "description": "Hành trình đi tìm vận mệnh. Phân tích hành trình của Santiago và ý nghĩa sâu sắc..."
-    },
-    {
-        "title": "Review Sách: 21 Bài Học Cho Thế Kỷ 21",
-        "url": "review-21-bai-hoc.html",
-        "keywords": "yuval noah harari ai fake news",
-        "description": "Tấm bản đồ cho hiện tại hỗn loạn. Phân tích về AI, fake news, và tương lai của nhân loại."
-    },
-    {
-        "title": "Top 5 Sách Kỹ Năng Sống Cho Sinh Viên",
-        "url": "top-5-sach-ky-nang-song.html",
-        "keywords": "self-help atomic habits dac nhan tam",
-        "description": "Những cuốn sách gối đầu giường mà bất kỳ sinh viên nào cũng nên đọc ít nhất một lần."
-    },
-    {
-        "title": "Trang Giới Thiệu",
-        "url": "gioi-thieu.html",
-        "keywords": "về chúng tôi trạm đọc sách",
-        "description": "Giới thiệu về sứ mệnh và con người đằng sau Trạm Đọc Sách."
-    },
-    {
-        "title": "Trang Tác Giả",
-        "url": "tac-gia.html",
-        "keywords": "nguyễn thu trang",
-        "description": "Danh sách các tác giả và reviewer của Trạm Đọc Sách."
-    },
 
-     {
-        "title": "Review Sách: Rừng Nauy",
-        "url": "review-rung-nauy.html",
-        "keywords": "Haruki Murakami Norwegian Wood ",
-        "description": "Phân tích nỗi cô đơn, tình yêu tuổi trẻ và những ám ảnh về cái chết.."
-    },
-
-    {
-        "title": "Review Sách: Sapiens lược sử loài người",
-        "url": "review-sapien-luoc-su-loai-nguoi.html",
-        "keywords": "Yuval Noah Harari ",
-        "description": "Khám phá lịch sử tiến hóa, kỷ nguyên nhận thức và tương lai của nhân loại."
-    },
-
-]
+    const searchData = [
+        {
+            title: "Review Sách: Cây Cam Ngọt Của Tôi",
+            url: "review-cay-cam-ngot-cua-toi.html",
+            keywords: "zeze portugua văn học brazil",
+            description: "Lời thú tội của một thiên thần. Câu chuyện về tình yêu, sự cô đơn, và cả những vết thương đầu đời..."
+        },
+        {
+            title: "Review Sách: Atomic Habits (Thói Quen Nguyên Tử)",
+            url: "review-atomic-habits.html",
+            keywords: "james clear 1% quy tắc xây dựng",
+            description: "Thay đổi tí hon, hiệu quả bất ngờ. Phân tích quy tắc 1% và 4 bước xây dựng thói quen bền vững."
+        },
+        {
+            title: "Review Sách: Đắc Nhân Tâm (Dale Carnegie)",
+            url: "review-dac-nhan-tam.html",
+            keywords: "giao tiếp ứng xử thảo mai",
+            description: "Cuốn sách self-help quyền lực nhất. 7 bài học đắt giá về giao tiếp, ứng xử..."
+        },
+        {
+            title: "Review Sách: Nhà Giả Kim (Paulo Coelho)",
+            url: "review-nha-gia-kim.html",
+            keywords: "santiago vận mệnh dấu hiệu vũ trụ",
+            description: "Hành trình đi tìm vận mệnh. Phân tích hành trình của Santiago và ý nghĩa sâu sắc..."
+        },
+        {
+            title: "Review Sách: 21 Bài Học Cho Thế Kỷ 21",
+            url: "review-21-bai-hoc.html",
+            keywords: "yuval noah harari ai fake news",
+            description: "Tấm bản đồ cho hiện tại hỗn loạn. Phân tích về AI, fake news, và tương lai của nhân loại."
+        },
+        {
+            title: "Review Sách: Rừng Na Uy (Norwegian Wood)",
+            url: "review-rung-nauy.html",
+            keywords: "haruki murakami naoko midori watanabe",
+            description: "Câu chuyện về tuổi trẻ, tình yêu, sự mất mát và nỗi cô đơn trong bối cảnh Nhật Bản thập niên 60."
+        },
+        {
+            title: "Review Sách: Sapiens: Lược Sử Loài Người",
+            url: "review-sapien-luoc-su-loai-nguoi.html",
+            keywords: "yuval noah harari lịch sử nhân loại",
+            description: "Một cái nhìn vĩ mô về toàn bộ lịch sử của loài người, từ thời kỳ đồ đá đến tương lai của AI."
+        },
+        {
+            title: "Review Sách: Cuộc Sống Không Giới Hạn (Life Without Limits)",
+            url: "review-cuoc-song-khong-gioi-han.html",
+            keywords: "nick vujicic nghị lực sống truyền cảm hứng",
+            description: "Câu chuyện có thật của người đàn ông không tay không chân và sức mạnh của tinh thần, lòng biết ơn."
+        },
+        {
+            title: "Top 5 Sách Kỹ Năng Sống Cho Sinh Viên",
+            url: "top-5-sach-ky-nang-song.html",
+            keywords: "self-help atomic habits dac nhan tam",
+            description: "Những cuốn sách gối đầu giường mà bất kỳ sinh viên nào cũng nên đọc ít nhất một lần."
+        },
+        {
+            title: "Trang Giới Thiệu",
+            url: "gioi-thieu.html",
+            keywords: "về chúng tôi trạm đọc sách",
+            description: "Giới thiệu về sứ mệnh và con người đằng sau Trạm Đọc Sách."
+        },
+        {
+            title: "Trang Tác Giả",
+            url: "tac-gia.html",
+            keywords: "nguyễn thu trang",
+            description: "Danh sách các tác giả và reviewer của Trạm Đọc Sách."
+        }
+        
+    ];
